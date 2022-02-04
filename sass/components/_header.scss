@@ -1,0 +1,66 @@
+.header {
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.4rem;
+  background-color: green;
+
+  &__logo {
+    height: 6rem;
+    width: 8rem;
+  }
+
+  &__searchBox {
+    display: flex;
+    align-items: center;
+    input {
+      width: 17rem;
+      height: 3rem;
+      border-radius: 3rem;
+      box-shadow: -8px 7px 24px -6px rgba(0, 0, 0, 0.75);
+      border: none;
+      padding: 0.6rem 2rem;
+      transition: all 0.2s;
+    }
+
+    input:focus {
+      outline: none;
+      width: 16.2rem;
+      height: 2.1rem;
+      box-shadow: -11px 9px 34px 1px rgba(0, 0, 0, 0.75);
+      padding: 0.7rem 2.2rem;
+    }
+
+    input:focus img {
+      margin-left: -3rem;
+    }
+
+    img {
+      width: 2.6rem;
+      margin-left: -2.8rem;
+    }
+  }
+
+  &__user {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    img {
+      height: 1.6rem;
+      width: 1.6rem;
+      padding: 0.1rem;
+    }
+
+    &--icon {
+      border: 1px solid rgba(128, 128, 128, 0.452);
+      border-radius: 5rem;
+      padding: 0.3rem;
+      // img {
+      //   height: 1.2rem;
+      //   width: 1.2rem;
+      //   padding: 0.1rem;
+      // }
+    }
+  }
+}
