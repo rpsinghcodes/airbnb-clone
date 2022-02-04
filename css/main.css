@@ -12,8 +12,10 @@ body {
   justify-content: space-around;
   align-items: center;
   font-size: 1.4rem;
-  background-color: green; }
+  background-color: #f5f5f5; }
   .header__logo {
+    color: white;
+    fill: white;
     height: 6rem;
     width: 8rem; }
   .header__searchBox {
@@ -26,11 +28,12 @@ body {
       box-shadow: -8px 7px 24px -6px rgba(0, 0, 0, 0.75);
       border: none;
       padding: 0.6rem 2rem;
-      transition: all 0.2s; }
+      transition: all 0.2s;
+      font-size: 1.4rem; }
     .header__searchBox input:focus {
       outline: none;
-      width: 16.2rem;
-      height: 2.1rem;
+      width: 18rem;
+      height: 3.5rem;
       box-shadow: -11px 9px 34px 1px rgba(0, 0, 0, 0.75);
       padding: 0.7rem 2.2rem; }
     .header__searchBox input:focus img {
