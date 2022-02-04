@@ -1,0 +1,38 @@
+.hero {
+  height: 90vh;
+  background-color: black;
+  margin-top: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__container {
+    background-image: url("../images/hero.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin: auto;
+    border-radius: 2rem;
+    height: 90%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    &--heading {
+      font-size: 2rem;
+      padding: 1.5rem 0;
+      color: white;
+      font-weight: 900;
+    }
+
+    &--btn {
+      padding: 1rem 2rem;
+      border-radius: 3rem;
+      border: none;
+      font-size: 1rem;
+    }
+  }
+}
