@@ -1,0 +1,33 @@
+.card {
+  background: linear-gradient(to right, #c31432, #240b36);
+  height: 22rem;
+  width: 18rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  &__img {
+    width: 100%;
+  }
+
+  &__about {
+    padding: 1rem;
+    color: white;
+    &--name {
+      font-size: 1.8rem;
+    }
+
+    &--distance {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.card1,
+.card3 {
+  background: linear-gradient(to right, #c31432, #240b36);
+}
+.card2,
+.card4 {
+  background: linear-gradient(to right, #f80759, #bc4e9c);
+}
