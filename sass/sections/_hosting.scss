@@ -1,0 +1,23 @@
+.hosting {
+  height: 50rem;
+  background-image: url("../images/hosting.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 3rem;
+
+  &__heading {
+    font-size: 4rem;
+    font-family: "Spartan", sans-serif;
+    color: white;
+    width: 60%;
+  }
+
+  button {
+    width: 15%;
+  }
+}

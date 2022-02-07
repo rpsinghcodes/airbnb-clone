@@ -1,0 +1,13 @@
+.btn {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 0.8rem;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: bolder;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: lightgrey;
+  }
+}
